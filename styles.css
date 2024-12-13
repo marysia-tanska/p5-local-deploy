@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url('fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: url('fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+}
+.body_black {
+    background-color: hsl(0deg, 0%, 0%); /* black */
+    color: hsl(0deg, 100%, 100%); /* white */
+    text-decoration: none;
+}
+.body_black a{
+    background-color: hsl(0deg, 0%, 0%); /* black */
+    color: hsl(0deg, 100%, 100%); /* white */
+    text-decoration: none;
+}
+.body_black a:hover{
+    background-color: hsl(0deg, 0%, 0%); /* black */
+    color: hsl(0deg, 100%, 100%); /* white */
+    text-decoration: underline;
+}
+
+#p5_sketch {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+}
+
+#container {
+    min-width: 500px;
+    horiz-align: center;
+    width: 80vw;
+    margin: 0 auto; /* center horizontally */
+}
+
+.header_main {
+    font-family: "Press Start 2P", "Open Sans", sans-serif;
+    font-size: 28px;
+    /*margin: 50px 0 0;*/
+    max-width: 70em;
+}
+.paragraph_base, .base_text {
+    font-family: "Source Code Pro", "Open Sans", sans-serif;
+    font-size: 1rem;
+    margin: auto;
+    line-height: 175%;
+    max-width: 70em;
+}
+
+.paragraph_base a {
+    text-shadow:
+        0 0 3px blue,
+        0 0 5px blue,
+        0 0 7px blue,
+        0 0 10px blue,
+        0 0 13px darkblue,
+        0 0 17px darkblue,
+        0 0 21px navy;
+
+    /*1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;*/
+    /*color: #fff;*/
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 1.5rem;
+    font-family: "Source Code Pro", "Open Sans", sans-serif;
+    color: #fff;
+}
