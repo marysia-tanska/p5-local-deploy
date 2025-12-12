@@ -17,8 +17,8 @@
 
 3. Install nvm: <br>
 https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/<br><br>
-4. Go to the terminal and use nvm to install Node.js:<br><br>
-https://www.linode.com/docs/guides/how-to-install-use-node-version-manager-nvm/#use-nvm-to-install-node<br><br>
+4. GInstall Node.js and npm through a desktop installer or via terminal:<br><br>
+https://nodejs.org/en/download<br><br>
 5. In the terminal, go to {YOUR_PROJECT_PATH}, for example:<br>
 ```cd C:\coding_projects\personal_website```<br><br>
 6. Install Browser Sync (a package that watches changes in your file and ```npm install -g browser-sync ```<br><br>
