@@ -2,7 +2,7 @@
 2. Install VSCode and open the project folder:<br>https://code.visualstudio.com/ <br><br>
 
 Version A (quick):
-3. Install the Live Server extension and run it in the project folder.
+3. Install the Live Server extension and run it in the project folder.<br><br>
 
 Version B (more industry-standard):
 3.1. Install nvm: <br>
